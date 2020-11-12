@@ -120,18 +120,4 @@ class Empleado:
         return self.__num_trabajador , self.__nombres , self.__paterno , self.__materno , self.__hextra , self.__sbase , self.__aingreso
 
    class Sueldos:
-    def __init__( self ):
-        self.__data = None
-
-    def cargar_datos( self , ruta_archivo ):
-        archivo = open( ruta_archivo , "rt" ,encoding='latin1' )
-        lineas = archivo.readlines()
-        archivo.close()
-        self.__data = Array( len(lineas) -1 )
-
-        for linea in lineas:
-            print(linea)
-
-
-ejemplo = Sueldos()
-ejemplo.cargar_datos('junio.dat')
+    def __
