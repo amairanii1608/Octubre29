@@ -4,7 +4,7 @@ class Nodo:
         self.siguiente = siguiente
 
 class LinkedList:
-    def __init__( self ): # haskjdhasjkdhasjh aksjdh
+    def __init__( self ): 
         self.__head = None
 
     def is_empty( self ):
