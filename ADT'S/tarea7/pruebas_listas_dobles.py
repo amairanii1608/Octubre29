@@ -1,0 +1,15 @@
+from listasdoble import DoubleLinkendList
+
+l=DoubleLinkendList()
+print(f"L esta vacia ? { l.is_empty() } ")
+l.append(10)
+l.append(5)
+l.append(6)
+l.append(20)
+print(f"L esta vacia ? { l.is_empty() } ")
+l.transversal()
+l.reverse_transversal()
+print("")
+l.remove_from_head(5)
+l.remove_from_tail(20)
+l.transversal()
