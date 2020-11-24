@@ -64,18 +64,18 @@ class DoubleLinkendList:
                curr_node=curr_node.prev
          return buscar
 
-     def remove_from_head(self, value):
-         removnodo=self.find_from_head(value)
-         removnodo !=None:
-         removnodo.prev.next=removnodo.next
-         removnodo.next.prev=removnodo.prev
-         removnodo=None
+      def remove_from_head(self, value):
+         curr_node=self.find_from_head(value)
+         curr_node !=None:
+         curr_node.prev.next=curr_node.next
+         curr_node.next.prev=curr_node.prev
+         curr_node=None
          self._-size-=1
 
     def remove_from_tail(self, value):
-         removnodo=self.find_from_tail(value)
-         removnodo !=None:
-         removnodo.prev.next=removnodo.next
-         removnodo.next.prev=removnodo.prev
-         removnodo=None
+         curr_node=self.find_from_tail(value)
+         curr_node !=None:
+         curr_node.prev.next=curr_node.next
+         curr_node.next.prev=curr_node.prev
+         curr_node=None
          self._-size-=1
