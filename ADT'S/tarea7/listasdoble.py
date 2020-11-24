@@ -30,6 +30,7 @@ class DoubleLinkendList:
              curr_nuevo=self.__tail
              self.__tail=curr_node.next=nuevo
              self.__tail.prev=curr_nuevo
+          self.__size+=1
 
      def transversal( self ):
          curr_node = self.__head.next
