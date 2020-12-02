@@ -11,4 +11,4 @@ class LaberintoADT:
             self.__laberinto.set_item( pasillo[0] , pasillo[1] , '0')
 
     def to_string( self ):
-        self.__laberinto.to_string
+        self.__laberinto.to_string()
