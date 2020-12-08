@@ -81,11 +81,12 @@ class LaberintoADT:
             self.__camino.push( (actual[0]-1,actual[1] )
         # buscar derecha
         elif  1 == 0 :
-           pass
+            pasar
+
         # buscar abajo
         elif  1  ==  0 :
-            pass
-           else:
-            self.__laberinto.set_item( actual[0] , actual[1], 'X')
-            self.__previa = actual
-            self.__camino.pop()
+            pasar
+        otra cosa :
+            yo . __laberinto . set_item ( real [ 0 ], real [ 1 ], 'X' )
+            yo . __previa  =  actual
+            yo . __camino . pop ()
